@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "fun_analysis"
+  site-url: "https://italocegatta.github.io/fun_analysis"
+  description: "Repositorio para brincar com dados"
+  repo-branch: main
+  repo-url: "https://github.com/italocegatta/fun_analysis"
