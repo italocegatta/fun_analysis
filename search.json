@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "fun_analysis",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "fun_analysis",
+    "section": "Install",
+    "text": "Install\npip install fun_analysis"
+  },
+  {
+    "objectID": "ibge_nomes.html",
+    "href": "ibge_nomes.html",
+    "title": "Quais os nomes mais famosos no Brasil?",
+    "section": "",
+    "text": "Para respondermos a essa pergunta, contamos a frequência de cada nome no Brasil e ordenamos colocando os mais frequentes no topo. Em seguida, vamos criar uma nuvem de palavras para visualizar essas informações.\nCriamos então a função generate_list_sorted_by_freq que faz a agregação dos nomes na tabela contando quantas vezes cada um aparece, e ordenamos a lista de acordo com os nomes mais frequentes. O código segue mais abaixo.\nPara criar a imagem, usamos a biblioteca wordcloud junto ao matplotlib, disponíveis para instalação via pip. A wordcloud nos possibilita gerar uma imagem com as palavras onde o tamanho de cada uma é determinado pela sua frequência, gerando um belo efeito visual para nosso ranking\n\nimport numpy as np\nimport basedosdados as bd\nimport matplotlib.pyplot as plt\n\nfrom decouple import AutoConfig\nfrom wordcloud import WordCloud\n\nconfig = AutoConfig(' ')\n\n\ndef visualize_wordcloud(word_dict):\n    x, y = np.ogrid[:1000, :1000]\n    mask = 2*(x - 500) ** 2 + (y - 500) ** 2 > 500 ** 2\n    mask = 255 * mask.astype(int)\n\n    wc = WordCloud(background_color=\"white\", mask=mask)\n    wc.fit_words(word_dict)\n    \n    plt.rcParams[\"figure.figsize\"] = 8, 8\n    plt.axis(\"off\")\n    plt.imshow(wc)\n    plt.show()\n\n\ndf = bd.read_table(\n    dataset_id='br_ibge_nomes_brasil',\n    table_id='quantidade_municipio_nome_2010',\n    billing_project_id=config(\"PROJECT_ID\")\n)\n\nPlease visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=262006177488-3425ks60hkk80fssi9vpohv88g6q1iqd.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&state=f7WtY5Zii6lyup9rNMBIgFJVPjapn5&access_type=offline\n\n\nDownloading: 100%|██████████| 1959116/1959116 [01:28<00:00, 22085.53rows/s]\n\n\n\ndf = df.rename(columns={'qtde_nascimentos_ate_2010': 'freq', 'nome': 'name'})\n\ndf\n\n\n\n\n\n  \n    \n      \n      id_municipio\n      name\n      quantidade_nascimentos_ate_2010\n    \n  \n  \n    \n      0\n      1100015\n      Ademir\n      46\n    \n    \n      1\n      1100015\n      Adriana\n      60\n    \n    \n      2\n      1100015\n      Aline\n      77\n    \n    \n      3\n      1100015\n      Amanda\n      51\n    \n    \n      4\n      1100015\n      Ana\n      300\n    \n    \n      ...\n      ...\n      ...\n      ...\n    \n    \n      1959111\n      5300108\n      Valdenora\n      45\n    \n    \n      1959112\n      5300108\n      Valdinete\n      45\n    \n    \n      1959113\n      5300108\n      Vantuir\n      45\n    \n    \n      1959114\n      5300108\n      Wandeson\n      45\n    \n    \n      1959115\n      5300108\n      Weslaine\n      45\n    \n  \n\n1959116 rows × 3 columns\n\n\n\n\nname_freq = (df\n  .groupby('name')\n  .agg(n=('quantidade_nascimentos_ate_2010', sum))\n  .sort_values(by='n', ascending=False)\n  .reset_index()\n)\n\nname_freq\n\n\n\n\n\n  \n    \n      \n      name\n      n\n    \n  \n  \n    \n      0\n      Maria\n      11734129\n    \n    \n      1\n      Jose\n      5754470\n    \n    \n      2\n      Ana\n      3089834\n    \n    \n      3\n      Joao\n      2984088\n    \n    \n      4\n      Antonio\n      2576156\n    \n    \n      ...\n      ...\n      ...\n    \n    \n      33071\n      Kauara\n      10\n    \n    \n      33072\n      Dmaria\n      10\n    \n    \n      33073\n      Djuliane\n      10\n    \n    \n      33074\n      Riyoko\n      10\n    \n    \n      33075\n      Odarci\n      10\n    \n  \n\n33076 rows × 2 columns\n\n\n\n\nname_freq_dict = name_freq.to_dict(orient='records')\nname_freq_dict = {r['name']:r['n'] for r in name_freq_dict}\n\nvisualize_wordcloud(name_freq_dict)"
+  },
+  {
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "Setup do projeto",
+    "section": "",
+    "text": "pip install basedosdados\npip install python-decouple, pandas\n\n! pip install -r requirements.txt\n\n\n! pip freeze > requirements.txt"
+  }
+]
