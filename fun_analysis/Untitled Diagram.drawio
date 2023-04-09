@@ -1,11 +1,134 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T17:28:23.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ET9SgV5k8YA32lkbAXDY" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-09T17:46:08.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="pP-MzXfqNDhLpWjE7C6y" version="21.1.5" type="github">
   <diagram name="Page-1" id="erPcFVzRpUX7uA6nZRC-">
-    <mxGraphModel dx="880" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2450" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bM7tItJZppVbXhOZE9K6-1" value="Empreendimentos florestais precisam de uma análise de viabilidade econômica" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="USM6RPjNSS8DskjidyGk-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bM7tItJZppVbXhOZE9K6-1" target="USM6RPjNSS8DskjidyGk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bM7tItJZppVbXhOZE9K6-1" target="USM6RPjNSS8DskjidyGk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bM7tItJZppVbXhOZE9K6-1" value="Empreendimentos florestais para uso múltiplo precisam de uma análise de viabilidade econômica" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="80" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USM6RPjNSS8DskjidyGk-2" target="USM6RPjNSS8DskjidyGk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USM6RPjNSS8DskjidyGk-2" target="USM6RPjNSS8DskjidyGk-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USM6RPjNSS8DskjidyGk-2" target="USM6RPjNSS8DskjidyGk-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USM6RPjNSS8DskjidyGk-2" target="USM6RPjNSS8DskjidyGk-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USM6RPjNSS8DskjidyGk-2" target="USM6RPjNSS8DskjidyGk-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-2" value="Ter uma referência do preço da terra nua&lt;br&gt;Valor Esperado da Terra" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USM6RPjNSS8DskjidyGk-5" target="USM6RPjNSS8DskjidyGk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="USM6RPjNSS8DskjidyGk-5" target="USM6RPjNSS8DskjidyGk-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-5" value="Simular cenários para mensurar os riscos" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-7" value="Método da simulação de Monte Carlo" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-9" value="Teoria de Cópulas para lidar com correlação entre variáveis" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USM6RPjNSS8DskjidyGk-11" target="USM6RPjNSS8DskjidyGk-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="600" />
+              <mxPoint x="620" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USM6RPjNSS8DskjidyGk-11" target="USM6RPjNSS8DskjidyGk-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="600" />
+              <mxPoint x="760" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USM6RPjNSS8DskjidyGk-11" target="USM6RPjNSS8DskjidyGk-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="600" />
+              <mxPoint x="870" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-11" value="Custos de produção" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-13" value="Preço de venda da madeira" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USM6RPjNSS8DskjidyGk-16" target="USM6RPjNSS8DskjidyGk-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USM6RPjNSS8DskjidyGk-16" target="USM6RPjNSS8DskjidyGk-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="680" />
+              <mxPoint x="420" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USM6RPjNSS8DskjidyGk-16" target="USM6RPjNSS8DskjidyGk-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="560" />
+              <mxPoint x="540" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="USM6RPjNSS8DskjidyGk-16" target="USM6RPjNSS8DskjidyGk-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="560" />
+              <mxPoint x="280" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-16" value="Produtividade" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-18" value="Mas pode haver uma correlação entre custos de produção e produtividade da floresta" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-21" value="Taxa interna de retorno" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-23" value="Tecnologia" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-26" value="Genética" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-28" value="Ambiente" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-30" value="Insumos" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-32" value="Mão de obra" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USM6RPjNSS8DskjidyGk-34" value="Custo da terra" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
